@@ -1,0 +1,47 @@
+* {
+  font-family: "helvetica";
+  font-weight: 300; }
+
+header, footer {
+  background-color: black; }
+  header h1, footer h1 {
+    text-align: center;
+    color: #FFFFFF; }
+
+#game {
+  text-align: center; }
+  #game .instructions h2 {
+    font-size: 5em;
+    text-decoration: underline; }
+  #game .instructions ul li {
+    list-style: none;
+    font-size: 3em; }
+  #game .instructions button {
+    width: 50%;
+    padding: 1%;
+    background-color: blue;
+    border-style: none;
+    border-radius: 21px;
+    font-size: 2em;
+    color: white; }
+  #game .container-box {
+    width: 23%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%; }
+    #game .container-box .userBox {
+      padding: 13%;
+      width: 82px;
+      font-size: 3em;
+      text-align: center;
+      border: 3px solid;
+      margin: auto;
+      margin-bottom: 21%;
+      border-radius: 10px; }
+
+#answer .respuesta h4 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 4%; }
+
+/*# sourceMappingURL=main.css.map */
